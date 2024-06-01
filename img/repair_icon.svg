@@ -1,0 +1,15 @@
+<svg width="40.000000" height="40.000000" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip6_76">
+			<rect id="function=repair" width="40.000000" height="40.000000" transform="translate(-0.500000 0.000000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="function=repair" width="40.000000" height="40.000000" transform="translate(-0.500000 0.000000)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip6_76)">
+		<rect id="Rectangle 20" x="-0.500000" y="16.666748" width="23.333332" height="23.333334" fill="#7595FD" fill-opacity="1.000000"/>
+		<path id="Vector" d="M29.5 26.66L26.16 26.66L26.16 25L12.83 25L12.83 26.66L9.5 26.66L9.5 25L2.83 25L2.83 33.33L36.16 33.33L36.16 25L29.5 25L29.5 26.66ZM32.83 13.33L27.83 13.33L27.83 10C27.83 8.16 26.33 6.66 24.5 6.66L14.5 6.66C12.66 6.66 11.16 8.16 11.16 10L11.16 13.33L6.16 13.33C4.33 13.33 2.83 14.83 2.83 16.66L2.83 23.33L9.5 23.33L9.5 20L12.83 20L12.83 23.33L26.16 23.33L26.16 20L29.5 20L29.5 23.33L36.16 23.33L36.16 16.66C36.16 14.83 34.66 13.33 32.83 13.33ZM24.5 13.33L14.5 13.33L14.5 10L24.5 10L24.5 13.33Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>

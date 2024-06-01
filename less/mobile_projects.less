@@ -1,0 +1,88 @@
+.mobile_projects{
+    width: 100%;
+    display: none;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    .container{
+        width: 95%;
+        margin: 0 auto;
+
+        > h1{
+            .main_title;
+            margin-bottom: 30px;
+        }
+        .select{
+            width: 150px;
+            height: 50px;
+            background: @clr1;
+            color: #fff;
+            margin: 0 auto;
+            .flex_center;
+            position: relative;
+            margin-bottom: 30px;
+
+            &::after{
+                position: absolute;
+                content: '>';
+                color: #fff;
+                right: 7px;
+                transform: rotate(90deg);
+
+            }
+
+            h2{
+                text-align: center;
+               
+            }
+        }
+
+        .slide{
+            width: 100%;
+            height: 300px;
+            background: url(../img/project_3.svg) no-repeat center/cover;
+            margin-bottom: 30px;
+        }
+
+        .arrows{
+            width: 100%;
+            .flex_between;
+           
+                button{
+                    width: 47%;
+                    height: 50px;
+                    text-align: center;
+                    background: @clr2;
+                    padding: 4px 20px;
+                    color: rgb(255, 255, 255);
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 21px;
+                    
+                   
+
+                    &:hover{
+                        cursor: pointer;
+                        background: #7595FD;
+                    }
+                }
+
+                
+            }
+                          
+        }
+    }
+
+
+
+@media (max-width: 700px){
+    .mobile_projects{
+        display: flex;
+
+        .select{
+                &:hover{
+                    cursor: pointer;
+                    background:#7595FD;    
+            }
+        }
+    }
+}

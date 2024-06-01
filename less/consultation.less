@@ -1,0 +1,84 @@
+.consultation{
+    width: 100%;
+    padding: 100px 0;
+    background: url(../img/main_block_back.jpg) no-repeat center/cover;
+    background-attachment: fixed;
+
+    .container{
+        max-width: 1415px;
+        width: 80%;
+        margin: 0 auto;
+        .flex_between;
+
+        article{
+            color: rgb(255, 255, 255);
+            h2{
+                .main_title;
+                color: #fff;
+                margin-bottom: 28px;
+            }
+            h3{
+                font-size: 24px;
+                a{
+                    text-decoration: underline;
+                }
+            }
+        }
+        button{
+            font-size: 18px;
+            font-weight: 600;
+            color: #fff;
+            background: none;
+            border: 2px solid rgb(255, 255, 255);
+            border-radius: 6px;
+            transition: .3s;
+            padding: 16px 20px;
+
+            &:hover{
+                cursor: pointer;
+                border-color:#7595FD;
+                
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 700px){
+    .projects{
+        display: none;
+    }
+
+    .consultation{
+        .container{
+            width: 95%;
+            flex-direction: column;
+
+            article{
+                h2{
+                    font-size: 30px;
+                }
+
+                h3{
+                    font-size: 20px;
+                    margin-bottom: 30px;
+                    a{
+
+                    }
+                }
+            }
+            button{
+                background: @clr1;
+                border: none;
+
+                &:hover{
+                    cursor: pointer;
+                    background:#7595FD;
+                    
+                }
+            }
+        }
+    }
+
+}

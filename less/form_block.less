@@ -1,0 +1,133 @@
+.form_block{
+    padding: 60px 0;
+    background: rgb(246, 248, 247);
+
+    .container{
+        width: 592px;
+        margin: 0 auto;
+
+        h1{
+            .main_title;
+            margin-bottom: 18px;
+        }
+        >p{
+            width: 539px;
+            color: @clr2;
+            font-size: 20px;
+            line-height: 23px;
+            text-align: center;
+            margin: 0 auto;
+            margin-bottom: 36px;
+        }
+        form{
+            width: 100%;
+            .flex_between;
+            flex-wrap: wrap;
+
+            input{
+                margin-bottom: 20px;
+            
+                &:not(input[type=submit]){
+                    width: 280px;
+                    height: 41px;
+                    border: 1px solid rgb(224, 227, 235);
+                    border-radius: 4px;
+                    padding-left: 8px;
+                    outline-color: rgba(0, 0, 0, 0.69);
+
+                    &::-webkit-input-placeholder{
+                        color: rgb(163, 170, 194);
+                    }
+                }
+            }
+            .select_element{
+                width: 280px;
+                height: 41px;
+                background: rgb(255, 255, 255);
+                border: 1px solid rgb(224, 227, 235);
+                border-radius: 4px;
+                padding-left: 8px;
+                padding-right: 9px;
+                .flex_between;
+                margin-bottom: 20px;
+
+                p{
+                    color: rgb(163, 170, 194);
+                }
+
+            }
+            textarea{
+                width: 100%;
+                border: 1px solid rgb(224, 227, 235);
+                border-radius: 4px;
+                height: 135px;
+                padding: 10px 8px 8px 8px;
+                margin-bottom: 8px;
+                &::-webkit-input-placeholder{
+                    color: rgb(163, 170, 194);
+                    font-family: @font;
+                }
+            }
+            .indicates{
+                width: 100%;
+                p{
+                    color: rgb(102, 114, 153);
+                    font-size: 14px;
+                    margin-bottom: 28px;
+                }
+            }
+            .submit{
+                width: 100%;
+                text-align: center;
+
+
+                input{
+                    width: 271px;
+                    color: rgb(255, 255, 255);
+                    font-size: 18px;
+                    font-weight: 600;
+                    border-radius: 2px;
+                    background: rgb(41, 71, 169);
+                    padding: 16px 0;
+
+                    &:hover{
+                        cursor: pointer;
+                        background: #7595FD;
+                    }
+                    
+                }
+            }
+
+        }
+    }
+}
+
+@media (max-width: 700px){
+    .form_block{
+        .container{
+            width: 95%;
+            p{
+                width: 95%;
+            }
+
+            form{
+                .flex_between;
+                flex-wrap: wrap;
+                width: 85%;
+                margin: 0 auto;
+    
+                input{
+                    margin-bottom: 20px;
+                    
+                    &:not(input[type=submit]){
+                        width: 100%;
+                        
+                    }
+        }
+        .select_element{
+            width: 100%;
+        }
+    }
+}
+}
+}

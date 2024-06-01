@@ -1,0 +1,173 @@
+.projects{
+    width: 100%;
+    padding-top: 88px;
+    padding-bottom: 138px;
+    .container{
+        width: 80%;
+        max-width: 1415px;
+        margin: 0 auto;
+        h2{
+            .main_title;
+            text-align: left;
+            margin-bottom: 38px;
+        }
+        section{
+            .flex_between;
+            align-items: flex-start;
+
+            ul{
+                li{
+                    color: rgb(194, 199, 214);
+                    font-size: 24px;
+                    font-weight: 500;
+                    margin-bottom: 19px;
+                    border-left: 4px solid rgba(0, 0, 0, 0);
+                    padding-left: 16px;
+
+                    &:hover{
+                        border-left: 4px solid @clr1;
+                        cursor: pointer;
+                        border-color: @clr1;
+                        color: @clr1;
+                    }
+
+                    
+                }
+            }
+
+            aside{
+                width: 800px;
+                .flex_between;
+                flex-wrap: wrap;
+
+                >nav{
+                    width: 384px;
+                    height: 332px;
+                    .flex_center;
+                    align-items: flex-end;
+                    margin-bottom: 32px;
+                    overflow: hidden;
+
+                    &:hover div{
+                        transform: translateY(0px);
+                        opacity: 1;
+                    }
+
+                    &:nth-child(1){
+                        background: url(../img/project_1.svg) no-repeat center/cover;
+                    }
+
+                    &:nth-child(2){
+                        background: url(../img/project_2.svg) no-repeat center/cover;
+                    }
+
+                    &:nth-child(3){
+                        background: url(../img/project_3.svg) no-repeat center/cover;
+                    }
+
+                    &:nth-child(4){
+                        background: url(../img/project_4.svg) no-repeat center/cover;
+                    }
+
+
+                    div{
+                        width: 100%;
+                        background: @clr1;
+                        color: rgb(255, 255, 255);
+                        padding: 12px 0 16px 12px;
+                        transform: translateY(85px);
+                        transition: transform 0.3s, opacity 0.6s;
+                        opacity: 0;
+                        
+                        h3{
+                            font-size: 20px;
+                            font-weight: 700;
+                            margin-bottom: 12px;
+                        }
+                        h4{
+                            font-size: 18px;
+                            line-height: 21px;
+                        }
+                    }
+                }
+
+                .slider{
+                    width: 100%;
+                    .flex_between;
+                    
+                   
+                    .back{
+                        width: 295px;
+                        height: 64px;
+                        text-align: center;
+                        background: @clr2;
+                        .flex_center;
+                        padding: 4px 20px;
+
+                        p{
+                            color: rgb(255, 255, 255);
+                            font-size: 18px;
+                            font-weight: 400;
+                            line-height: 21px;
+                            margin-left: 10px;
+                        }
+
+                        &:hover{
+                            cursor: pointer;
+                            background: #7595FD;
+                        }
+                        }
+
+                        .next{
+                            width: 295px;
+                            height: 64px;
+                            text-align: center;
+                            background: @clr2;
+                            .flex_center;
+                            padding: 4px 20px;
+
+                            img{
+                                transform: rotate(180deg);
+                            }
+                            
+                            p{
+                                color: rgb(255, 255, 255);
+                                font-size: 18px;
+                                font-weight: 400;
+                                line-height: 21px;
+                                margin-right: 10px;
+                            }
+
+                            &:hover{
+                                cursor: pointer;
+                                background: #7595FD;
+                            }
+                            }
+
+                            .radios{
+
+                               .flex_center;
+
+                                >nav{
+                                    width: 16px;
+                                    height: 16px;
+                                    border-radius: 50px;
+                                    margin: 0px 16px;
+                                    background: rgb(221, 222, 222);
+
+                                    &:nth-child(1){
+                                        background: rgb(41, 71, 169);
+                                    }
+                                                                   
+                                }
+                            }
+
+                    
+
+                   
+
+                }
+            }
+        }
+    }
+}
